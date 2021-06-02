@@ -13,3 +13,16 @@ def calculate(x):
 
 calculate(3)
 calculate(4)
+
+def calculate_circle(x):
+    result = math.pi * (x**2)
+    return result
+
+def calculate_triangle(b,h):
+    result = 1/2 * b * h
+    return result
+
+def calculate_rectangle(l,b):
+    result = l * b
+    return result
+    
